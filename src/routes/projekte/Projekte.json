@@ -1,13 +1,9 @@
 {
-  "cars": {
-      "taffa": [
-          {"model":"Sentra", "doors":4},
-          {"model":"Maxima", "doors":4},
-          {"model":"Skylineex", "doors":2}
-      ],
-      "prizren": [
-          {"model":"Taurus", "doors":4},
-          {"model":"Escort", "doors":4}
-      ]
+    "taffa": {
+        "name": "Taffa Costruzioni",
+        "img":"/src/images/tafa.jpg",
+        "typ":"logo"
+    }
+
+
   }
-}

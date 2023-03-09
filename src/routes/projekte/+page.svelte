@@ -7,7 +7,7 @@
 <Nav/>
 <main>
     <section>
-        <Projekt/>
+        <Projekt projekt={ProjektJSON.taffa}/>
         <Projekt/>
         <Projekt/>
         <Projekt/>
