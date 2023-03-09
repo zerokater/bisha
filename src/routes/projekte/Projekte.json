@@ -1,9 +1,14 @@
 {
     "taffa": {
         "name": "Taffa Costruzioni",
-        "img":"../src/images/tafa.jpg",
+        "img":"./src/images/tafa.jpg",
+        "img_alt":"Logo Taffa Costruzioni",
+        "typ":"logo"
+    },
+    "test": {
+        "name": "test",
+        "img":"./src/images/pexels.jpg",
+        "img_alt":"Logo Taffa Costruzioni",
         "typ":"logo"
     }
-
-
   }

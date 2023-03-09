@@ -1,14 +1,14 @@
 <script>
     import Nav from '/src/components/Nav.svelte';
     import Projekt from '/src/components/Projekt.svelte';
-    import ProjektJSON from '/src/routes/projekte/Projekte.json';
+    import ProjekteJSON from '/src/routes/projekte/Projekte.json';
 </script>
 
 <Nav/>
 <main>
     <section>
-        <Projekt projekt={ProjektJSON.taffa}/>
-        <Projekt/>
+        <Projekt projekt={ProjekteJSON.taffa}/>
+        <Projekt projekt={ProjekteJSON.test}/>
         <Projekt/>
         <Projekt/>
         <Projekt/>
@@ -23,7 +23,7 @@
         height: auto;
     }
     section{
-        justify-content: center;
+        justify-content: start;
         display: flex;
         gap: 2rem;
         flex-flow: wrap;
