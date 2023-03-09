@@ -1,7 +1,7 @@
 {
     "taffa": {
         "name": "Taffa Costruzioni",
-        "img":"./src/images/tafa.jpg",
+        "img":"../src/images/tafa.jpg",
         "typ":"logo"
     }
 
