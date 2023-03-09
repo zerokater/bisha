@@ -11,7 +11,6 @@
         <Projekt projekt={ProjekteJSON.test}/>
         <Projekt/>
         <Projekt/>
-        <Projekt/>
     </section>
 </main>
 
