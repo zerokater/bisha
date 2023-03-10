@@ -37,10 +37,16 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
+///////////////////
 
-git commit -m commento
+git add . (aggiungere i commit alla lista)
 
-git push origin main
+git commit -m commento (fare un commit con un commento)
 
-test alo prova
+git push origin main (pushar/pubblicare il commit su github)
 
+git pull origin  (copiare i file da github)
+
+git clone (installare repository)
+
+git init (configurare la cartella locale)
