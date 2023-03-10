@@ -1,5 +1,5 @@
 <header>
-    <a href="/"><h1>bisha.</h1></a>
+    <a href="/"><h1>.</h1></a>
     <nav>
         <a href="/projekte">Projekte</a>
         <a class ="kontakt" href="/kontakt">Kontakt</a>
@@ -26,7 +26,7 @@
     a{
         text-decoration: none;
         color: black;
-        transition: 0.2s color ;
+        transition: 0.3s color ;
     }
 
     a:hover{
@@ -39,7 +39,7 @@
         padding: 0.4rem;
         border: 2pt solid orangered;
         background-color: white;
-        transition: 0.5s background-color;
+        transition: 0.3s background-color;
         font-weight: 400;
     }
 
