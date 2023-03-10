@@ -39,6 +39,9 @@ You can preview the production build with `npm run preview`.
 
 ///////////////////
 
+repository: https://github.com/zerokater/bisha.git
+
+
 git add . (aggiungere i commit alla lista)
 
 git commit -m commento (fare un commit con un commento)
