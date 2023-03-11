@@ -5,7 +5,7 @@
 
 <Nav/>
 
-<h1>Headline</h1>
+<h1>Romek è gay</h1>
 
 
 <style>
