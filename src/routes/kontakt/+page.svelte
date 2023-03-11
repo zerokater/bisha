@@ -4,7 +4,7 @@
 
 <Nav/>
 
-<h1>e anche ricchione</h1>
+<h1>kontakt</h1>
 
 <style>
     h1{
