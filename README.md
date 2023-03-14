@@ -41,15 +41,16 @@ You can preview the production build with `npm run preview`.
 
 repository: https://github.com/zerokater/bisha.git
 
-
 git add . (aggiungere i commit alla lista)
 
 git commit -m commento (fare un commit con un commento)
 
 git push origin main (pushar/pubblicare il commit su github)
 
-git pull origin  (copiare i file da github)
+git pull origin (copiare i file da github)
 
 git clone (installare repository)
 
 git init (configurare la cartella locale)
+
+test

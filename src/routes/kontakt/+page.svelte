@@ -4,4 +4,11 @@
 
 <Nav/>
 
-<h1>Kontakt  ALO</h1>
+<h1>kontakt</h1>
+
+<style>
+    h1{
+        font-weight: 300;
+        font-size: 3rem;
+    }
+</style>

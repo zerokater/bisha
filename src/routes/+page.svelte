@@ -5,7 +5,11 @@
 
 <Nav/>
 
+<<<<<<< HEAD
 <h1>Kreative Gestaltung für Print- und Online-Medien</h1>
+=======
+<h1>homepage</h1>
+>>>>>>> 27822aeefd05649e41e742c688ba199a0dca1044
 
 
 <style>
