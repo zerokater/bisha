@@ -5,12 +5,12 @@
 
 <Nav/>
 
-<h1>Headline</h1>
+<h1>Kreative Gestaltung für Print- und Online-Medien</h1>
 
 
 <style>
     h1{
-        font-weight: 300;
+        font-weight: 700;
         font-size: 3rem;
     }
 </style>
