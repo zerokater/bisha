@@ -3,17 +3,18 @@
 </script>
 
 <svelte:head>
-	<title>"bisha. | Individuelle Web- & Grafikdesign-Lösungen im Oberwallis</title>
+	<title>bisha. | Kreative Markenbildung & Design-Lösungen in Ihrer Region</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professionelle Design-Dienstleistungen im Oberwallis: Grafikdesign, Webdesign, Branding und mehr. Individuelle Lösungen für einzigartige Online-Auftritte. Erfahren Sie mehr!">
-	<meta name="keywords" content="noindex nofollow" />
+    <meta name="description" content="">
+	<meta name="keywords" content="Webdseite Logo Gestaltung w" />
 	<html lang="en" />
 </svelte:head>
 
 
 <Nav/>
 
-<h1>Kreative Gestaltung für Print- und Online-Medien</h1>
+<h1>Von der Entwicklung neuer Marken bis hin zum kleinsten Detail im Design.</h1>
+<h2>Kreativagentur, die Unternehmen hilft, sich als Branchenführer zu profilieren.</h2>
 
 
 <style>
