@@ -21,7 +21,10 @@
     }
 
     :global(p){
-      font-size: 62.5%;
+      font-size: 2rem;
     }
-  </style>
+</style>
+
+
+
 <slot />

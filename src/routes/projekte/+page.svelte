@@ -3,15 +3,15 @@
     import ProjekteJSON from '/src/routes/projekte/Projekte.json';
 </script>
 
-
 <h1>Unsere ausgewählten Projekte</h1>
 
 <main>
     <section>
         <Projekt projekt={ProjekteJSON.taffa}/>
-        <Projekt projekt={ProjekteJSON.test}/>
-        <Projekt/>
-        <Projekt/>
+        <Projekt projekt={ProjekteJSON.taffa}/>
+        <Projekt projekt={ProjekteJSON.taffa}/>
+        <Projekt projekt={ProjekteJSON.taffa}/>
+        <Projekt projekt={ProjekteJSON.taffa}/>
     </section>
 </main>
 
@@ -31,3 +31,4 @@
         height: auto;
     }
 </style>
+

@@ -7,13 +7,13 @@
     },
     "test": {
         "name": "test",
-        "img":"./src/images/pexels.jpg",
+        "img":"images/tafa.jpg",
         "img_alt":"Logo Taffa Costruzioni",
         "typ":"logo"
     },
     "alo": {
         "name": "test",
-        "img":"./src/images/pexels.jpg",
+        "img":"images/tafa.jpg",
         "img_alt":"Logo Taffa Costruzioni",
         "typ":"logo"
     }
