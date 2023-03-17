@@ -1,11 +1,8 @@
 <script>
-  import { dev } from '$app/environment';
-  import { inject } from '@vercel/analytics';
-
-
-  inject({ mode: dev ? 'development' : 'production' });
+    import Nav from '/src/components/Nav.svelte';
 </script>
-<!-- +layout.svelte -->
+
+<Nav/>
 <style>
     :global(*) {
       font-family: 'Ubuntu', sans-serif;
@@ -22,16 +19,9 @@
       width: 70%;
       margin: 0 auto;
     }
+
+    :global(p){
+      font-size: 62.5%;
+    }
   </style>
-  
-  <header>
-    <!-- your header content here... -->
-  </header>
-  
-  <main>
-    <slot />
-  </main>
-  
-  <footer>
-    <!-- your footer content here... -->
-  </footer>
+<slot />

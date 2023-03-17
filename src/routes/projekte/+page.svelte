@@ -1,10 +1,8 @@
 <script>
-    import Nav from '/src/components/Nav.svelte';
     import Projekt from '/src/components/Projekt.svelte';
     import ProjekteJSON from '/src/routes/projekte/Projekte.json';
 </script>
 
-<Nav/>
 
 <h1>Unsere ausgewählten Projekte</h1>
 
