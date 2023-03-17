@@ -2,6 +2,14 @@
     import Nav from '/src/components/Nav.svelte';
 </script>
 
+<svelte:head>
+	<title>bisha. </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professionelle Design-Dienstleistungen im Oberwallis: Grafikdesign, Webdesign, Branding und mehr. Individuelle Lösungen für einzigartige Online-Auftritte. Erfahren Sie mehr!">
+	<meta name="keywords" content="noindex nofollow" />
+	<html lang="en" />
+</svelte:head>
+
 
 <Nav/>
 
