@@ -14,6 +14,10 @@
       margin: 0;
     }
 
+    :global(html){
+      font-size: 10px;
+    }
+
     :global(body){
       width: 70%;
       margin: 0 auto;
