@@ -5,6 +5,9 @@
 </script>
 
 <Nav/>
+
+<h1>Unsere ausgewählten Projekte</h1>
+
 <main>
     <section>
         <Projekt projekt={ProjekteJSON.taffa}/>
