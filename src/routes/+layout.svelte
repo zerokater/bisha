@@ -16,6 +16,7 @@
     }
 
     :global(body){
+      background-color: red;
       width: 70%;
       margin: 0 auto;
     }
