@@ -17,8 +17,7 @@
 <p>Pizza carbonara</p>
 
 <style>
-    h1{
-        font-weight: 700;
-        font-size: 3rem;
+    p{
+        font-size: 20rem;
     }
 </style>
