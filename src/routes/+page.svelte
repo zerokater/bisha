@@ -11,13 +11,14 @@
 </head>
 
 
-<!-- <h1>Von der Entwicklung neuer Marken bis hin zum kleinsten Detail im Design.</h1>
-<h2>Kreativagentur, die Unternehmen hilft, sich als Branchenführer zu profilieren.</h2> -->
+<h1>Von der Entwicklung neuer Marken bis hin zum kleinsten Detail im Design.</h1>
+<h2>Kreativagentur, die Unternehmen hilft, sich als Branchenführer zu profilieren.</h2> 
 
-<p>Pizza carbonara</p>
 
 <style>
-    p{
-        font-size: 20rem;
+
+    h1{
+        font-size: 4rem;
     }
+
 </style>

@@ -24,6 +24,7 @@
 
 
     a{
+        font-size: 1.6rem;
         text-decoration: none;
         color: black;
         transition: 0.3s color ;
