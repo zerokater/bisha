@@ -39,7 +39,6 @@
         color: orangered;
         padding: 0.4rem;
         border: 2pt solid orangered;
-        background-color: white;
         transition: 0.3s background-color;
         font-weight: 400;
     }
@@ -47,6 +46,11 @@
     .kontakt:hover{
         background-color: orangered;
         color: white;
+    }
+
+    @media only screen and (max-width: 600px) {
+        
+
     }
 
 

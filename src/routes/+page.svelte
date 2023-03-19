@@ -1,5 +1,4 @@
 <script>
-    import Nav from '/src/components/Nav.svelte';
 </script>
 
 <head>
@@ -20,5 +19,7 @@
     h1{
         font-size: 4rem;
     }
+
+    
 
 </style>

@@ -17,13 +17,22 @@
 
     :global(body){
       
-      width: 70%;
+      width: 1000px;
       margin: 0 auto;
     }
 
     :global(p){
       font-size: 2rem;
     }
+
+
+    @media only screen and (max-width: 1120px) {
+    :global(body) {
+      width: 90%;
+      background-color: lightblue;
+    }
+
+}
 </style>
 
 
