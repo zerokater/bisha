@@ -29,7 +29,6 @@
     @media only screen and (max-width: 1120px) {
     :global(body) {
       width: 90%;
-      background-color: lightblue;
     }
 
 }

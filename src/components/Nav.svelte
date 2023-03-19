@@ -18,16 +18,18 @@
 
     nav{
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
         align-items: center;
     }
 
 
     a{
+        font-weight: 500;
         font-size: 1.6rem;
         text-decoration: none;
         color: black;
         transition: 0.3s color ;
+
     }
 
     a:hover{
@@ -35,17 +37,18 @@
     }
 
     .kontakt{
-        border-radius: 0.2rem;
-        color: orangered;
-        padding: 0.4rem;
+        background-color: orangered;
+        border-radius: 0.5rem;
+        color: white;
+        padding: 0.6rem;
         border: 2pt solid orangered;
         transition: 0.3s background-color;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     .kontakt:hover{
-        background-color: orangered;
-        color: white;
+        background-color: white;
+        color: orangered;
     }
 
     @media only screen and (max-width: 600px) {
