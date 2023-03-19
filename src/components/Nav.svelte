@@ -40,7 +40,7 @@
         background-color: orangered;
         border-radius: 0.5rem;
         color: white;
-        padding: 0.6rem;
+        padding: 0.5rem;
         border: 2pt solid orangered;
         transition: 0.3s background-color;
         font-weight: 500;
