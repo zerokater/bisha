@@ -2,8 +2,7 @@
     
 </script>
 
-
-<h1>kontakt</h1>
+<p>kontakt</p>
 
 <style>
     h1{

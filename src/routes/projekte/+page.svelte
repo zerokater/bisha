@@ -3,7 +3,9 @@
     import ProjekteJSON from '/src/routes/projekte/Projekte.json';
 </script>
 
-<h1>Unsere ausgewählten Projekte</h1>
+
+<p>projekte</p>
+<!--<h1>Unsere ausgewählten Projekte</h1>
 
 <main>
     <section>
@@ -14,7 +16,7 @@
         <Projekt projekt={ProjekteJSON.taffa}/>
     </section>
 </main>
-
+-->
 
 
 <style>

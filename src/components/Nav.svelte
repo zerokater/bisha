@@ -1,6 +1,13 @@
+<script>
+
+    
+</script>
+
 <header>
     <a href="/"><h1>bisha.</h1></a>
+    
     <nav>
+        <div class="hamburger"></div>
         <a href="/projekte">Projekte</a>
         <a class ="kontakt" href="/kontakt">Kontakt</a>
     </nav>
@@ -51,11 +58,32 @@
         color: orangered;
     }
 
+    .hamburger{
+        display: none;
+        width: 50px;
+        height: 50px;
+        background-image: url("images/menu_hamburger.svg");
+        background-position: center;
+    }
+
+
+
+    @media only screen and (max-width: 1120px) {
+        nav a {
+            display: none;
+        }
+
+        .hamburger{
+            display: block;
+        }
+    }
+
+
+
     @media only screen and (max-width: 600px) {
         header{
             height: 7rem;
         }
-
     }
 
 
