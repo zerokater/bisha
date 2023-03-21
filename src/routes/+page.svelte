@@ -9,13 +9,6 @@
 	<html lang="en" />
 </head>
 
-<div class="aufbau">
-    <h1>bisha.</h1>
-    <h2>Die Website befindet sich derzeit im Aufbau.</h2>
-    <a class="mail" href="mailto:info@bisha.ch">info@bisha.ch</a>
-</div>
-
-<p>mergim scemo</p>
 <!-- <h1>Von der Entwicklung neuer Marken bis hin zum kleinsten Detail im Design.</h1>
 <h2>Kreativagentur, die Unternehmen hilft, sich als Branchenführer zu profilieren.</h2> -->
 
@@ -23,45 +16,6 @@
 <style>
 
 
-.aufbau{
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: orangered;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 2rem;
-        align-items: center;
-        width: 100vw;
-        height: 100%;
-    }
 
-    .aufbau h1{
-        color: white;
-        font-size: 4rem;
-    }
-
-    .aufbau h2{
-        padding: 0rem 0.5rem 5rem 0.5rem;
-        text-align: center;
-        font-weight: 400;
-        color: white;
-        font-size: 2rem;
-    }
-
-    .mail{
-        text-decoration: none;
-        border-bottom: 1pt solid;
-        color: white;
-		font-size: 2rem;
-        opacity: 0.7;
-        font-weight: 300;
-        transition: 0.5s opacity;
-    }
-
-    .mail:hover{
-        opacity: 1;
-    }
 
 </style>
