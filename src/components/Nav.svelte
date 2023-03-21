@@ -9,6 +9,16 @@
     }
 </script>
 
+
+<div class="aufbau">
+    <h1>bisha.</h1>
+    <h2>Die Website befindet sich derzeit im Aufbau.</h2>
+    <a class="mail" href="mailto:info@bisha.ch">info@bisha.ch</a>
+</div>
+
+
+
+
 <header>
     <a href="/"><h1>bisha.</h1></a>
     
@@ -24,6 +34,43 @@
 </header>
 
 <style>
+
+    .aufbau{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: orangered;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .aufbau h1{
+        color: white;
+        font-size: 4rem;
+    }
+
+    .aufbau h2{
+        font-weight: 400;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .mail{
+        border-bottom: 1pt solid;
+        color: white;
+        opacity: 0.9;
+        font-weight: 300;
+    }
+
+    .mail:hover{
+        opacity: 1;
+    }
+
     header {
         width: 100%;
         height: 10rem;
@@ -46,7 +93,7 @@
         transition: 0.3s color;
     }
 
-    a:hover {
+    nav a:hover {
         color: orangered;
     }
 
