@@ -46,7 +46,7 @@
         gap: 2rem;
         align-items: center;
         width: 100vw;
-        height: 100vh;
+        height: 100%;
     }
 
     .aufbau h1{
@@ -55,6 +55,8 @@
     }
 
     .aufbau h2{
+        padding: 0rem 0.5rem 5rem 0.5rem;
+        text-align: center;
         font-weight: 400;
         color: white;
         font-size: 2rem;
