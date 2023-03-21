@@ -62,7 +62,7 @@
         display: none;
         width: 50px;
         height: 50px;
-        background-image: url("images/menu_hamburger.svg");
+        background-image: url('images/menu_hamburger.svg');
         background-position: center;
     }
 
