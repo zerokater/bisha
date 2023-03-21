@@ -51,11 +51,13 @@
     }
 
     .mail{
+        text-decoration: none;
         border-bottom: 1pt solid;
         color: white;
 		font-size: 2rem;
-        opacity: 0.9;
+        opacity: 0.7;
         font-weight: 300;
+        transition: 0.5s opacity;
     }
 
     .mail:hover{
