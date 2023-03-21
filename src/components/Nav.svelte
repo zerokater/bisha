@@ -67,6 +67,11 @@
     .hamburger {
         cursor: pointer;
         display: none;
+        transition: 0.3s fill;
+    }
+
+    .hamburger:hover{
+        fill: orangered;
     }
 
     .hamburger-open {
