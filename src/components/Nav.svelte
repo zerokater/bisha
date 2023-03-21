@@ -7,7 +7,7 @@
     <a href="/"><h1>bisha.</h1></a>
     
     <nav>
-        <div class="hamburger"></div>
+        <svg class="hamburger" height="50" width="50"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
         <a href="/projekte">Projekte</a>
         <a class ="kontakt" href="/kontakt">Kontakt</a>
     </nav>
@@ -60,10 +60,6 @@
 
     .hamburger{
         display: none;
-        width: 50px;
-        height: 50px;
-        background-image: url('images/menu_hamburger.svg');
-        background-position: center;
     }
 
 
