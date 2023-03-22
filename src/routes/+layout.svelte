@@ -19,7 +19,6 @@
   }
 
   :global(body){
-    background-color: dimgray;
     width: 1000px;
     margin: 0 auto;
   }

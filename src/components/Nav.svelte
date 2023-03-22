@@ -37,7 +37,8 @@
     }
 
     .kontakt{
-        background-color: orangered;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(31deg, rgba(255,69,0,1) 0%, rgba(255,169,0,1) 100%);
         border-radius: 0.5rem;
         color: white;
         padding: 0.7rem;
@@ -48,7 +49,7 @@
 
     .kontakt:hover{
         background-color: white;
-        color: orangered;
+        color: white;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 
