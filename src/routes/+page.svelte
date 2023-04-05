@@ -25,3 +25,5 @@
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;    }
 </style>
+
+<!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->
