@@ -1,7 +1,7 @@
-<header>
+    <header>
     <a href="/"><h1>bisha.</h1></a>
     <nav>
-        <a href="/projekte">Projekte</a>
+        <a href="/projekte">Projekte</a> 
         <a class ="kontakt" href="/kontakt">Kontakt</a>
     </nav>
 </header>
@@ -42,16 +42,14 @@
         border-radius: 0.5rem;
         color: white;
         padding: 0.7rem;
-        transition: 0.3s background-color;
-        transition: 0.3s ;
+        transition: 0.3s transform ;
         font-weight: 500;
     }
 
     .kontakt:hover{
-        background-color: white;
+        transform: scale(1.04);
         color: white;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    }
+       }
 
     @media only screen and (max-width: 600px) {
         header{

@@ -21,8 +21,7 @@
     .headline{
         width: 100%;
         height: 30vh;
-        background-color: white;
+        
         border-radius: 0.5rem;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    }
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;    }
 </style>
