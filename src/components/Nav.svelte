@@ -47,7 +47,7 @@
     }
 
     .kontakt:hover{
-        transform: scale(1.04);
+        transform: scale(1.03);
         color: white;
        }
 
