@@ -37,17 +37,16 @@
     }
 
     .kontakt{
-        background: rgb(0, 0, 0);
+
         background: linear-gradient(31deg, rgba(255,69,0,1) 0%, rgba(255,169,0,1) 100%);
         border-radius: 0.5rem;
         color: white;
         padding: 0.7rem;
-        transition: 0.3s transform ;
+        transition: 1s background ;
         font-weight: 500;
     }
 
     .kontakt:hover{
-        transform: scale(1.03);
         color: white;
        }
 

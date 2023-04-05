@@ -20,7 +20,7 @@
 <style>
     .headline{
         width: 100%;
-        height: 30vh;
+        height: 30rem;
         
         border-radius: 0.5rem;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;    }
