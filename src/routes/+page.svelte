@@ -9,43 +9,20 @@
 	<html lang="en" />
 </head>
 
-<!-- <h1>Von der Entwicklung neuer Marken bis hin zum kleinsten Detail im Design.</h1>
-<h2>Kreativagentur, die Unternehmen hilft, sich als Branchenführer zu profilieren.</h2> -->
-<main class="alo">
-    <h1>Von der Kreation neuer Brands bis hin zum kleinsten Detail im Design.</h1>
-    <button>Unsere Dienstleistungen</button>
+<!-- <h2>Kreativagentur, die Unternehmen hilft, sich als Branchenführer zu profilieren.</h2> -->
+<main>
+    <section class="headline">
+
+    </section>
+    <!--<h1>Von der Kreation neuer Brands bis hin zum kleinsten Detail im Design.</h1>-->
 </main>
 
 <style>
-    .alo{
-        color: black;
-        font-size: 4rem;
+    .headline{
         width: 100%;
-        display: flex;
-        height: auto;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        gap: 3rem;
+        height: 30vh;
+        background-color: white;
+        border-radius: 0.5rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
-
-    .alo h1{
-        font-weight: 300;
-    }
-
-
-    button{
-        border: 1pt solid rgb(223, 223, 223);
-        padding: 2rem;
-        color: white;
-        border-radius: 1rem;
-        font-weight: 500;
-        font-size: 2rem;
-        background: rgb(255,69,0);
-        background: linear-gradient(31deg, rgba(255,69,0,1) 0%, rgba(255,169,0,1) 100%);
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-    }
-
-
 </style>
