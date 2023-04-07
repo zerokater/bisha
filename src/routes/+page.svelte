@@ -1,4 +1,5 @@
 <script>
+    
 </script>
 
 <head>
@@ -12,18 +13,27 @@
 <!-- <h2>Kreativagentur, die Unternehmen hilft, sich als Branchenführer zu profilieren.</h2> -->
 <main>
     <section class="headline">
-
+        <h1>Von der Kreation neuer Brands bis hin zum kleinsten Detail im Design.</h1>
     </section>
     <!--<h1>Von der Kreation neuer Brands bis hin zum kleinsten Detail im Design.</h1>-->
 </main>
 
 <style>
     .headline{
+        font-size: 5rem;
         width: 100%;
-        height: 30rem;
         
         border-radius: 0.5rem;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;    }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .headline h1{
+            font-size: 3rem;
+        }
+
+    }
+
+    
 </style>
 
 <!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->
