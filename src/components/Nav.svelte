@@ -9,7 +9,7 @@
 <style>
     header{
         width: 100%;
-        height: 10rem;
+        height: 8rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -27,8 +27,8 @@
         font-weight: 500;
         font-size: 1.6rem;
         text-decoration: none;
-        color: black;
-        transition: 0.3s color ;
+        color: rgb(0, 0, 0);
+        transition: all 0.2s ;
 
     }
 
@@ -39,24 +39,19 @@
     .kontakt{
         border-radius: 0.5rem;
         box-shadow: orangered 0px 0px 0px 2.5px;
+        -webkit-box-shadow: orangered 0px 0px 0px 2.5px;
+        -moz-box-shadow: orangered 0px 0px 0px 2.5px;
         color: orangered;
         padding: 0.7rem;
-        transition: all 0.3s;
+        transition: all 0.5s;
         font-weight: 500;
     }
 
     .kontakt:hover{
+        scale: 0.95;
         background-color: orangered;
         box-shadow: none;
         color: white;
        }
-
-    @media only screen and (max-width: 600px) {
-        header{
-            height: 7rem;
-        }
-
-    }
-
 
 </style>
