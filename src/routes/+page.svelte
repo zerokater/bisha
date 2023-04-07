@@ -15,24 +15,54 @@
     <section class="headline">
         <h1>Von der Kreation neuer Brands bis hin zum kleinsten Detail im Design.</h1>
     </section>
+    <section class="dienstleistungen">
+
+    </section>
     <!--<h1>Von der Kreation neuer Brands bis hin zum kleinsten Detail im Design.</h1>-->
 </main>
 
 <style>
+
+    main{
+        display: flex;
+        flex-direction: column; 
+        gap: 3rem;
+    }
     .headline{
-        font-size: 5rem;
+        font-size: 4.7rem;
         width: 100%;
         
         border-radius: 0.5rem;
     }
 
-    @media only screen and (max-width: 600px) {
-        .headline h1{
-            font-size: 3rem;
+
+
+
+    .dienstleistungen{
+        height: 30rem;
+        background-color: orangered;
+        border-radius: 1rem;
+    }
+
+
+
+    /*MEDIA QUERYS*/
+    @media only screen and (max-width: 1120px) {
+        .headline{
+            font-size: 4rem;
         }
+    
 
     }
 
+
+    @media only screen and (max-width: 850px) {
+        .headline{
+            font-size: 3rem;
+        }
+    
+
+    }
     
 </style>
 

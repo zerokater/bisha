@@ -38,7 +38,7 @@
 
     .kontakt{
         border-radius: 0.5rem;
-        box-shadow: orangered 0px 0px 0px 2px;
+        box-shadow: orangered 0px 0px 0px 2.5px;
         color: orangered;
         padding: 0.7rem;
         transition: all 0.3s;
