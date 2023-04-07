@@ -1,8 +1,8 @@
-    <header>
+<header>
     <a href="/"><h1>bisha.</h1></a>
     <nav>
-        <a href="/projekte">Projekte</a> 
-        <a class ="kontakt" href="/kontakt">Kontakt</a>
+        <a href="/projekte">projekte</a> 
+        <a class ="kontakt" href="/kontakt">kontakt</a>
     </nav>
 </header>
 
@@ -37,16 +37,17 @@
     }
 
     .kontakt{
-
-        background: linear-gradient(31deg, rgba(255,69,0,1) 0%, rgba(255,169,0,1) 100%);
         border-radius: 0.5rem;
-        color: white;
+        box-shadow: orangered 0px 0px 0px 2px;
+        color: orangered;
         padding: 0.7rem;
-        transition: 1s background ;
+        transition: all 0.3s;
         font-weight: 500;
     }
 
     .kontakt:hover{
+        background-color: orangered;
+        box-shadow: none;
         color: white;
        }
 
