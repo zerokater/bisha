@@ -1,5 +1,5 @@
 <header>
-    <a href="/"><h1>bisha.</h1></a>
+    <a href="/"><h1>majlinda scema</h1></a>
     <nav>
         <a href="/projekte">projekte</a> 
         <a class ="kontakt" href="/kontakt">kontakt</a>
