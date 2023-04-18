@@ -13,6 +13,9 @@
 <h1>VON DER <span>KREATION</span> NEUER MARKEN BIS HIN ZUM KLEINSTEN DETAIL IM <span>DESIGN</span>.</h1>
 <style>
 
+	h1{
+		text-align: center;
+	}
 	span{
 		color: orangered;
 	}
