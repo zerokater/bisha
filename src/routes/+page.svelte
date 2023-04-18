@@ -14,8 +14,9 @@
 <style>
 
 	h1{
-
+		font-weight: 300;
 	}
+
 	span{
 		color: orangered;
 	}
