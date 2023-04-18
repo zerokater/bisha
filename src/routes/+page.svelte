@@ -14,18 +14,26 @@
 	<section class="headline">
 		<Headline/>
 	</section>
+
+	<section class="dienstleistungen">
+		<h2>h2n</h2>
+	</section>
 </main>
 
 
 
-<style>
+<style>	
 
-	h1{
-		border-radius: 0.5rem;
+	main{
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
 	}
 
-	span{
-		color: orangered;
+	.dienstleistungen{
+		border-radius: 0.5rem;
+		height: 40rem;
+		background-color: gainsboro;
 	}
 </style>
 

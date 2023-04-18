@@ -28,7 +28,12 @@
   }
 
   :global(h1){
-    font-size:6.5rem;
+    font-size:15rem;
+  }
+
+  :global(h2){
+    font-weight: 400;
+    font-size:3.5rem;
   }
 
   @media only screen and (max-width: 1120px) {
@@ -36,10 +41,10 @@
     width: 90%;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1000px) {
 
   :global(h1){
-    font-size: 4rem;
+    font-size: 10rem;
   }
 
 
@@ -48,7 +53,7 @@
 
 @media only screen and (max-width: 480px) {
   :global(h1){
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
 
 }
