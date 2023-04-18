@@ -15,7 +15,6 @@
 
 	h1{
 		border-radius: 0.5rem;
-		font-weight: 300;
 	}
 
 	span{
