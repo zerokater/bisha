@@ -28,7 +28,7 @@
   }
 
   :global(h1){
-    font-size: 6.5rem;
+    font-size:6.5rem;
   }
 
   @media only screen and (max-width: 1120px) {

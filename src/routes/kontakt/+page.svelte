@@ -23,7 +23,7 @@
 <section>
     <h1>Wir Machen</h1>
     {#key index}
-        <h1 transition:slide> <span> {greetings[index]}.</span></h1>
+        <h1> <span> {greetings[index]}.</span></h1>
     {/key}
 </section>
 
