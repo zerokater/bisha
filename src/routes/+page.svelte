@@ -1,5 +1,4 @@
 <script>
-    
 </script>
 
 <head>
@@ -10,7 +9,15 @@
 	<html lang="en" />
 </head>
 
-<h1>VON DER <span>KREATION</span> NEUER MARKEN BIS HIN ZUM KLEINSTEN DETAIL IM <span>DESIGN</span>.</h1>
+<main>
+	<section class="headline">
+		<h1><span>Kreativität</span> ist unsere Stärke.</h1>
+		<h2>Wir machen Ihre Marke unvergesslich</h2>
+	</section>
+</main>
+
+
+
 <style>
 
 	h1{
