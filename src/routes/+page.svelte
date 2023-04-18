@@ -1,4 +1,5 @@
 <script>
+	import Headline from '/src/components/Headline.svelte';
 </script>
 
 <head>
@@ -11,8 +12,7 @@
 
 <main>
 	<section class="headline">
-		<h1><span>Kreativität</span> ist unsere Stärke.</h1>
-		<h2>Wir machen Ihre Marke unvergesslich</h2>
+		<Headline/>
 	</section>
 </main>
 
