@@ -2,7 +2,7 @@
     import { onMount, onDestroy } from 'svelte';
 import { slide, fade } from 'svelte/transition';
 
-let greetings = ['Logos', 'Fotos', 'Flyer', 'Pizza'];
+let greetings = ['Logo', 'Visitenkarte', 'Flyer','Foto', 'Pizza', 'Broschüre', 'Video', 'Animation', 'Visitenkarte'];
 let index = 0;
 let roller;
 
