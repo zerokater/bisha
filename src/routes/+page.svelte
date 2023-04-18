@@ -10,7 +10,15 @@
 	<html lang="en" />
 </head>
 
-<h1>kristian</h1>
-<style></style>
+<h1>VON DER <span>KREATION</span> NEUER MARKEN BIS HIN ZUM KLEINSTEN DETAIL IM <span>DESIGN</span>.</h1>
+<style>
+
+	span{
+		color: orangered;
+	}
+	h1{
+		font-size: 6rem;
+	}
+</style>
 
 <!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->
