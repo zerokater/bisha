@@ -16,7 +16,7 @@
 	</section>
 
 	<section class="dienstleistungen">
-		<h2>h2n</h2>
+		<h2>__________________</h2>
 	</section>
 </main>
 
@@ -31,9 +31,6 @@
 	}
 
 	.dienstleistungen{
-		border-radius: 0.5rem;
-		height: 40rem;
-		background-color: gainsboro;
 	}
 </style>
 

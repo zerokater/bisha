@@ -29,6 +29,9 @@ onDestroy(() => {
 
 
 <style>
+    h1{
+        line-height: 90%;
+    }
     span{
         color: orangered;
     }
