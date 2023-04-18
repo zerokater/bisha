@@ -1,7 +1,7 @@
 <script>
     import { onMount, onDestroy } from 'svelte';
 
-let greetings = ['Logo', 'Visitenkarte', 'Flyer','Foto', 'Pizza', 'Broschüre', 'Video', 'Animation', 'Visitenkarte','Illustration'];
+let greetings = ['Logo','Flyer','Foto', 'Pizza', 'Visitenkarte', 'Broschüre', 'Video', 'Animation','Illustration'];
 let index = 0;
 let roller;
 
