@@ -7,6 +7,7 @@
 </header>
 
 <style>
+
     header{
         width: 100%;
         height: 8rem;
@@ -23,6 +24,9 @@
     }
 
 
+    h1{
+        font-size: 3rem !important;
+    }
     a{
         font-weight: 500;
         font-size: 1.6rem;

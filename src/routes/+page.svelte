@@ -16,9 +16,6 @@
 	span{
 		color: orangered;
 	}
-	h1{
-		font-size: 6rem;
-	}
 </style>
 
 <!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->

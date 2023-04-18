@@ -27,11 +27,31 @@
     font-size: 2rem;
   }
 
+  :global(h1){
+    font-size: 6rem;
+  }
+
 
   @media only screen and (max-width: 1120px) {
   :global(body) {
     width: 90%;
   }
+
+  @media only screen and (max-width: 768px) {
+
+  :global(h1){
+    font-size: 4rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  :global(h1){
+    font-size: 2rem;
+  }
+}
+
 
 }
 </style>
