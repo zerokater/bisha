@@ -28,7 +28,7 @@
   }
 
   :global(h1){
-    font-size: 6rem;
+    font-size: 6.5rem;
   }
 
   @media only screen and (max-width: 1120px) {
@@ -48,7 +48,7 @@
 
 @media only screen and (max-width: 480px) {
   :global(h1){
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
 }
