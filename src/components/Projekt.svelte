@@ -24,7 +24,7 @@
         flex-grow: 1;
         /*flex-grow: 1;
         flex-shrink: 1;*/
-        width: 15rem;
-        height: 15rem;
+        width: 30rem;
+        height: 30rem;
     }
 </style>

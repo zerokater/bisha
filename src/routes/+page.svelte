@@ -1,5 +1,6 @@
 <script>
-	import Headline from '/src/components/Headline.svelte';
+	import Projekt from '/src/components/Projekt.svelte';
+    import ProjekteJSON from '/src/routes/projekte/Projekte.json';
 </script>
 
 <head>
@@ -12,17 +13,27 @@
 
 <main>
 	<section class="headline">
-		<Headline/>
+		<h1>Ihre Marke gut gestaltet.</h1>
+		<h2>Ihr <span>Erfolg</span> durch individuelles <span>Design</span>.</h2>
 	</section>
 
-	<section class="dienstleistungen">
-	</section>
+
 </main>
 
 
 
 <style>	
+	.headline{
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		height: auto;
+	}
 
+
+	span{
+		color: orangered;
+	}
 	main{
 		display: flex;
 		flex-direction: column;

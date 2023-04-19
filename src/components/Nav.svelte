@@ -9,12 +9,13 @@
 <style>
 
     header{
+        margin-top: 2rem;
         width: 100%;
-        height: 8rem;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 2rem;
+        margin-bottom: 5rem;
 
     }
 
@@ -55,5 +56,27 @@
         background-color: orangered;
         color: white;
        }
+
+
+
+
+    @media only screen and (max-width: 768px) {
+
+        header{
+            margin-bottom: 3rem;
+        }
+
+
+    }
+
+    @media only screen and (max-width: 480px) {
+
+        header{
+            margin-bottom: 0rem;
+        }
+
+
+    }
+
 
 </style>
