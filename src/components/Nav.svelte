@@ -44,17 +44,16 @@
 
     .kontakt{
         border-radius: 0.5rem;
-        color: orangered;
-        padding: 0.7rem;
-        transition: all 0.5s;
+        color: white;
+        padding: 1rem;
+        transition: all 0.5s ease;
         font-weight: 500;
-        border: 2pt solid orangered;
+        background-color: orangered;
     }
 
     .kontakt:hover{
-        scale: 0.95;
-        background-color: orangered;
         color: white;
+        background-color: black;
        }
 
 
@@ -69,7 +68,7 @@
 
     }
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 768px) {
 
         header{
             margin-bottom: 0rem;
