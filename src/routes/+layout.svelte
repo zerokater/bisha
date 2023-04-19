@@ -64,10 +64,10 @@
 
 @media only screen and (max-width: 480px) {
   :global(h1){
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
   :global(h2){
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
 }
