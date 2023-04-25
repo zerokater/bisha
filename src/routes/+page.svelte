@@ -66,6 +66,7 @@ main {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 1.5rem;
   border-radius: 0.5rem;
+  background-color: white;
 }
 
 @media only screen and (max-width: 700px) {

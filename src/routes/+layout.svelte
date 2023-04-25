@@ -1,10 +1,14 @@
 <script>
     import Nav from '/src/components/Nav.svelte';
+    import Footer from '/src/components/Footer.svelte';
 </script>
 
 <Nav/>
 
 <slot />
+
+<Footer/>
+
 
 <style>
   :global(*) {
@@ -24,7 +28,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: white;;
+    background-color:#f3f4f6;
   }
 
 
