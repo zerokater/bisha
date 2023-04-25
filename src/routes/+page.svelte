@@ -63,22 +63,9 @@ main {
 
 .leistungen-box {
   width: 300px;
-  color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 1.5rem;
   border-radius: 0.5rem;
-}
-
-.leistungen-box:nth-child(1) {
-  background-color: orangered;
-}
-
-.leistungen-box:nth-child(2) {
-  background-color: #0DACFF;
-}
-
-.leistungen-box:nth-child(3) {
-  background-color: #12B338;
 }
 
 @media only screen and (max-width: 700px) {
