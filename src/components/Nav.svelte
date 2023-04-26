@@ -1,3 +1,10 @@
+<script>
+    import { dev } from '$app/environment';
+    import { inject } from '@vercel/analytics';
+ 
+    inject({ mode: dev ? 'development' : 'production' });
+</script>
+
 <header>
     <a href="/"><h1>bisha.</h1></a>
     <nav>
