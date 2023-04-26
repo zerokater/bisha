@@ -9,6 +9,11 @@
     inject({ mode: dev ? 'development' : 'production' });
 </script>
 
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <html lang="de" />
+</head>
+
 <Nav/>
 
 <slot />
