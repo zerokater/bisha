@@ -16,6 +16,10 @@
 		<h2>Ihr <span>Erfolg</span> durch individuelles <span>Design</span>.</h2>
 	</section>
 
+  <section class="einleitung">
+
+  </section>
+
 	<section class="dienstleistungen" >
 		<div class="leistungen-box">
 			<h2>Foto</h2>
@@ -38,7 +42,13 @@
 
 
 <style>	
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 .headline {
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -49,29 +59,40 @@ span {
   color: orangered;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+.einleitung{
+  height: 40rem;
+  border-radius: 0.5rem;
+  background-image: url("images/media.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .dienstleistungen {
   display: flex;
   gap: 2rem;
+  justify-content: space-between;
 }
 
 .leistungen-box {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 320px;
+  height: 320px;
+  color: rgb(70, 70, 70);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 1.5rem;
+  padding: 2.5rem;
   border-radius: 0.5rem;
-  background-color: white;
 }
+
 
 @media only screen and (max-width: 700px) {
   .dienstleistungen {
     flex-wrap: wrap;
-    width: auto;
+
   }
 
   .leistungen-box {

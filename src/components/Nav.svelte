@@ -33,13 +33,12 @@
         font-weight: 500;
         font-size: 1.6rem;
         text-decoration: none;
-        color: rgb(0, 0, 0);
         transition: all 0.2s ;
-
+        color: black;
     }
 
     a:hover{
-        color: #ff4500;
+        color: orangered;
     }
 
     .kontakt{
@@ -52,8 +51,8 @@
     }
 
     .kontakt:hover{
+        scale: 0.95;
         color: white;
-        background-color: black;
        }
 
 
