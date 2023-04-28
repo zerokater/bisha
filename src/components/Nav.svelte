@@ -27,6 +27,7 @@
 
 
     h1{
+        color: black !important;
         font-size: 3rem !important;
     }
     a{

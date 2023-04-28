@@ -7,7 +7,7 @@
     <link rel="canonical" href="https://bisha.ch/projekte">
 </head>
 
-<h1>Unsere Projekte</h1>
+<h1>Unsere Projekte.</h1>
 <!--<h1>Unsere ausgewählten Projekte</h1>
 
 <main>

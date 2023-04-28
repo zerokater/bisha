@@ -47,15 +47,16 @@
   }
 
   :global(h1){
-    
+    color: orangered;
     line-height: 100%;
     font-size:6.5rem;
+    font-weight: 700;
   }
 
   :global(h2){
-    font-weight: 400;
+    font-weight: 300;
     font-size:3.5rem;
-    color: orangered;
+    color: black;
   }
 
 

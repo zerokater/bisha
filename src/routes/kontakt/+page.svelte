@@ -2,4 +2,4 @@
     <link rel="canonical" href="https://bisha.ch/kontakt">
 </head>
 
-<h1>kontakt</h1>
+<h1>Kontakiere uns.</h1>
