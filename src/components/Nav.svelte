@@ -34,7 +34,7 @@
         font-weight: 500;
         font-size: 1.6rem;
         text-decoration: none;
-        transition: all 0.2s ;
+        transition: all 0.2s ease;
         color: black;
     }
 
@@ -42,19 +42,8 @@
         color: orangered;
     }
 
-    .kontakt{
-        border-radius: 0.5rem;
-        color: white;
-        padding: 1rem;
-        transition: all 0.5s ease;
-        font-weight: 500;
-        background-color: orangered;
-    }
 
-    .kontakt:hover{
-        scale: 0.95;
-        color: white;
-       }
+
 
 
 

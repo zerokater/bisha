@@ -15,13 +15,9 @@
 		<h1>Ihre Marke gut gestaltet.</h1>
 		<h2>Ihr <span>Erfolg</span> durch individuelles <span>Design</span>.</h2>
 	</section>
-  <section class="projekte" >
-    <img class="projekt-image" src="images/tafa.jpg" alt="">
-    <img class="projekt-image" src="images/tafa.jpg" alt="">
-    <img class="projekt-image" src="images/tafa.jpg" alt="">
-    <img class="projekt-image" src="images/tafa.jpg" alt="">
-    <img class="projekt-image" src="images/tafa.jpg" alt="">
-    <img class="projekt-image" src="images/tafa.jpg" alt="">
+  <section class="uber-uns" >
+    <p>Bisha ist eine kreative Branding-Agentur, die sich auf die Entwicklung einzigartiger visueller Identitäten spezialisiert hat. Wir sind der Meinung, dass gutes Design mehr ist als nur Ästhetik - es sollte eine Geschichte erzählen und eine Verbindung zwischen Ihrer Marke und Ihren Kunden schaffen.</p>
+    <a href="/kontakt">Kontaktiere Uns</a>
   </section>
 
 </main>
@@ -40,41 +36,37 @@ main {
   gap: 0.5rem;
 }
 
-
-.projekte{
+.uber-uns{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 4rem;
+  flex-direction: column;
+  gap: 2rem;
+  width: 700px;
 }
-.projekt-image{
-  border: 1pt solid rgb(157, 157, 157);
-  width: 30%;
-  box-shadow: rgba(101, 107, 112, 0.2) 0px 8px 24px;
+
+.uber-uns a{
   border-radius: 0.5rem;
+  color: white;
+  padding: 1rem;
+  transition: all 0.5s ease;
+  font-weight: 500;
+  background-color: orangered;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-decoration: none;
+  width: 150px;
+}
+
+.uber-uns a:hover{
+  scale: 0.95;
+  color: white;
 
 }
 
-@media only screen and (max-width: 768px) {
-  
-  .projekte{
-    row-gap: 2.5rem;
+@media only screen and (max-width: 1120px) {
+  .uber-uns {
+    width: 75%;
   }
-  
-  .projekt-image {
-    width: 47.5%;
   }
-}
-@media only screen and (max-width: 480px) {
-  
-  .projekte{
-    row-gap: 2rem;
-  }
-  
-  .projekt-image {
-    width:  100%;
-  }
-}
 </style>
 
 <!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->
