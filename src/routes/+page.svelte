@@ -108,6 +108,17 @@ main {
 
 }
 
+@media only screen and (max-width: 480px) {
+
+.projekte{
+  row-gap: 2rem;
+}
+.projekte img{
+  width: 100%;
+}
+
+}
+
 </style>
 
 <!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->
