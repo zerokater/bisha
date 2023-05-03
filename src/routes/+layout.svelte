@@ -55,6 +55,7 @@
 
   :global(h2){
     font-weight: 300;
+    line-height: 100%;
     font-size:3.5rem;
     color: black;
   }
