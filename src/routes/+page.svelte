@@ -66,7 +66,15 @@ main {
   .uber-uns {
     width: 75%;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .uber-uns{
+    width: auto;
   }
+
+}
+
 </style>
 
 <!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->

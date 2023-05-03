@@ -83,7 +83,7 @@
     font-size: 4.5rem;
   }
   :global(h2){
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
 }
