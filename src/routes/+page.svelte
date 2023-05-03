@@ -71,18 +71,21 @@ main {
 }
 
 .projekte{
-  padding: 2rem;
   display: flex;
   width: 100%;
-  background-color: #f8f8f8;
   flex-wrap: wrap;
-  row-gap: 2rem;
+  row-gap: 3rem;
   justify-content: space-between;
 }
 
 .projekte img{
   width: 30%;
-  border: 1pt solid rgb(233, 233, 233)}
+  border: 1pt solid rgb(233, 233, 233);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 0.5rem;
+  
+}
+  
 
 @media only screen and (max-width: 1120px) {
   .uber-uns {
@@ -91,6 +94,10 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .projekte{
+    row-gap: 2rem;
+  }
   .projekte img{
     width: 47.5%;
   }
