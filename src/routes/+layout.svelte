@@ -32,63 +32,8 @@
   :global(html){
     font-size: 10px;
   }
-
-  :global(body){
-    width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  :global(section){
+    margin: auto;
   }
 
-
-  :global(p){
-    font-size: 1.6rem;
-  }
-
-  :global(h1){
-    color: orangered;
-    line-height: 100%;
-    font-size:6.5rem;
-    font-weight: 700;
-  }
-
-  :global(h2){
-    font-weight: 300;
-    line-height: 100%;
-    font-size:3.5rem;
-    color: black;
-  }
-
-
-  @media only screen and (max-width: 1120px) {
-  :global(body) {
-    width: 90%;
-  }
-
-  @media only screen and (max-width: 768px) {
-
-  :global(h1){
-    font-size: 4.5rem;
-  }
-  :global(h2){
-    font-size: 2.5rem;
-  }
-
-
-}
-
-
-@media only screen and (max-width: 480px) {
-  :global(h1){
-    font-size: 4.5rem;
-  }
-  :global(h2){
-    font-size: 2.5rem;
-  }
-
-}
-
-
-}
 </style>

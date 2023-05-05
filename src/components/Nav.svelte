@@ -1,69 +1,50 @@
 <header>
-    <a href="/"><h1>bisha.</h1></a>
     <nav>
-        <a href="/projekte">projekte</a> 
-        <a class ="kontakt" href="/kontakt">kontakt</a>
+        <a class="logo" href="/"><h1>bisha.</h1></a>
+        <div class="nav-links">
+            <a class="nav-link" href="/dienstleistungen">dienstleistungen</a> 
+            <a class="nav-link kontakt" href="/kontakt">kontakt</a>
+        </div>
     </nav>
 </header>
 
 <style>
-
     header{
-        margin-top: 2rem;
-        width: 100%;
-        height: auto;
-        display: flex;
+        min-height: 10rem;
+        background-color: orangered;
+        justify-content: center;
         align-items: center;
-        justify-content: space-between;
-        margin-bottom: 5rem;
-
+        display: flex;
     }
-
+    
     nav{
+        width: 1120px;
+        margin: auto;
         display: flex;
-        gap: 2rem;
+        justify-content: space-between;
         align-items: center;
+        gap: 2rem;
     }
 
-
-    h1{
-        color: black !important;
-        font-size: 3rem !important;
-    }
-    a{
-        font-weight: 500;
-        font-size: 1.6rem;
-        text-decoration: none;
-        transition: all 0.2s ease;
-        color: black;
+    .logo{
+        text-decoration: none !important;
+        color: white;
+        font-size: 2rem;
     }
 
-    a:hover{
-        color: orangered;
+    .nav-links{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    .nav-link{
+        text-decoration: none !important;
+        color: white;
+        font-size: 2rem;
     }
 
-
-
-
-
-
-
-    @media only screen and (max-width: 768px) {
-
-        header{
-            margin-bottom: 3rem;
-        }
-
-
-    }
-
-    @media only screen and (max-width: 768px) {
-
-        header{
-            margin-bottom: 0rem;
-        }
-
-
+    .kontakt{   
+        border-radius: 0.5rem;
     }
 
 

@@ -1,6 +1,5 @@
 <script>
-	import Projekt from '/src/components/Projekt.svelte';
-  import ProjekteJSON from '/src/routes/projekte/Projekte.json';
+
 </script>
 
 
@@ -12,113 +11,78 @@
 </head>
 
 <main>
-	<section class="headline">
-		<h1>Ihre Marke gut gestaltet.</h1>
-		<h2>Ihr Erfolg durch individuelles Design.</h2>
-	</section>
-  <section class="uber-uns" >
-    <p>Bisha ist eine kreative Branding-Agentur, die sich auf die Entwicklung einzigartiger visueller Identitäten spezialisiert hat. Wir sind der Meinung, dass gutes Design mehr ist als nur Ästhetik - es sollte eine Geschichte erzählen und eine Verbindung zwischen Ihrer Marke und Ihren Kunden schaffen.</p>
-    <a href="/kontakt">Kontaktiere Uns</a>
-  </section>
-  <section class="projekte">
-    <img src="images/tafa.jpg" alt="">
-    <img src="images/tafa.jpg" alt="">
-    <img src="images/tafa.jpg" alt="">
-    <img src="images/tafa.jpg" alt="">
-    
-  </section>
+    <div class="headline-container">
+        <section class="headline">
+            <h1>Der perfekte Look für Ihr <span>Unternehmen.</span></h1>
+            <h2>Design, das Eindruck macht.</h2>
+        </section>
+    </div>
 
+    <div class="willkommen-container">
+        <section class="willkommen">
+            <h2>Ciao!</h2>
+            <p>Wir ist eine kreative Branding-Agentur, die sich auf die Entwicklung einzigartiger visueller Identitäten spezialisiert hat. Wir sind der Meinung, dass gutes Design mehr ist als nur Ästhetik - es sollte eine Geschichte erzählen und eine Verbindung zwischen Ihrer Marke und Ihren Kunden schaffen.</p>
+        </section>
+    </div>
 </main>
+<style>
+    span{
+        background-color: yellowgreen;
+     }
 
+    main{
+        display: flex;
+        align-items: start;
+        justify-content: startx;
+        width: 100%;
+        flex-direction: column;
+    }
 
+    .headline-container{
+        background-color: orangered;
+        width: 100%;
+        height: 45rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+    .headline{
+        display: flex;
+        flex-direction: column;
+        width: 1120px;
+        gap: 4rem;
+    }
 
-<style>	
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-.headline {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
+    .willkommen-container{
+        width: 100%;
+        height: auto;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.uber-uns{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 700px;
-}
+    .willkommen{
+        display: flex;
+        flex-direction: column;
+        width: 1120px;
+    }
+    h1{
+        color: white;
+        line-height: 120%;
+        font-size: 7rem;
+    }
 
-.uber-uns a{
-  border-radius: 0.5rem;
-  color: white;
-  padding: 1rem;
-  transition: all 0.5s ease;
-  font-weight: 500;
-  background-color: orangered;
-  font-weight: 500;
-  font-size: 1.6rem;
-  text-decoration: none;
-  width: 150px;
-}
+    h2{
+        text-decoration: underline;
+        text-decoration-color: yellowgreen;
+        color: white;
+        font-size: 3rem;
+        font-weight: 400;
+    }
 
-.uber-uns a:hover{
-  scale: 0.95;
-  color: white;
-
-}
-
-.projekte{
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  row-gap: 3rem;
-  justify-content: space-between;
-}
-
-.projekte img{
-  width: 30%;
-  border: 1pt solid rgb(233, 233, 233);
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-  border-radius: 0.5rem;
-  
-}
-  
-
-@media only screen and (max-width: 1120px) {
-  .uber-uns {
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-
-  .projekte{
-    row-gap: 2rem;
-  }
-  .projekte img{
-    width: 47.5%;
-  }
-  
-  .uber-uns{
-    width: auto;
-  }
-
-}
-
-@media only screen and (max-width: 480px) {
-
-.projekte{
-  row-gap: 2rem;
-}
-.projekte img{
-  width: 100%;
-}
-
-}
-
+    p{
+        font-size: 2.5rem;
+    }
 </style>
-
-<!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->
