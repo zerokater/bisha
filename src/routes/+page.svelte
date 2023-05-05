@@ -27,7 +27,7 @@
 </main>
 <style>
     span{
-        background-color: yellowgreen;
+        background-color: orange;
      }
 
     main{
@@ -76,7 +76,7 @@
 
     h2{
         text-decoration: underline;
-        text-decoration-color: yellowgreen;
+        text-decoration-color: orange;
         color: white;
         font-size: 3rem;
         font-weight: 400;
