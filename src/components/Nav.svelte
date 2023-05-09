@@ -26,10 +26,13 @@
         gap: 2rem;
     }
 
-    .logo{
-        text-decoration: none !important;
+
+    a{
+        text-decoration: none;
+    }
+    h1{
         color: black;
-        font-size: 2rem;
+        font-size: 3em !important;
     }
 
     .nav-links{
@@ -47,5 +50,12 @@
         border-radius: 0.5rem;
     }
 
+    @media screen and (max-width: 1200px) {
+
+        
+        nav{
+        padding: 0rem 2rem 0rem 2rem;
+        }
+    }
 
 </style>

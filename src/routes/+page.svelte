@@ -33,9 +33,6 @@
 </main>
 <style>
 
-    span{
-        background-color: orangered;
-     }
 
     main{
         display: flex;
@@ -56,14 +53,12 @@
     .headline{
         display: flex;
         flex-direction: column;
-        width: 1120px;
         gap: 4rem;
     }
 
     .willkommen-container{
         background-color: #f1f1f1;
         width: 100%;
-        height: auto;
         height: 45rem;
         display: flex;
         justify-content: center;
@@ -71,11 +66,9 @@
     }
 
     .willkommen{
-
         display: flex;
         gap: 2rem;
         flex-direction: column;
-        width: 1120px;
     }
 
     .projekte-container{
@@ -92,35 +85,15 @@
         display: flex;
         gap: 2rem;
         flex-direction: column;
-        width: 1120px; 
     }
 
     .projekte img{
         width: 33%;
         border: 1pt solid #f1f1f1;
     }
-    h1{
-        color: black;
-        line-height: 120%;
-        font-size: 7rem;
-    }
-
-    h2{
-        text-decoration: underline;
-        text-decoration-color: orangered;
-        color: black;
-        font-size: 3.5rem;
-        font-weight: 400;
-    }
-
-    h3{
-        font-size: 3rem;
-        text-decoration: underline;
-        text-decoration-color: orangered;
-    }
 
 
-    p{
-        font-size: 2.5rem;
-    }
+ 
+
+
 </style>

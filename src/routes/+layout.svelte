@@ -34,10 +34,46 @@
   }
   :global(section){
     margin: auto;
+    width: 1120px;
   }
 
   :global(h2){
     color: orangered;
   }
 
+  :global(span){
+    background-color: orangered;
+  }
+
+  :global(h1){
+    color: black;
+    line-height: 120%;
+    font-size: 7rem;
+  }
+
+  :global(h2){
+        text-decoration: underline;
+        text-decoration-color: orangered;
+        color: black;
+        font-size: 3.5rem;
+        font-weight: 400;
+  }
+
+  :global(h3){
+        font-size: 3rem;
+        text-decoration: underline;
+        text-decoration-color: orangered;
+    }
+
+
+    :global(p){
+        font-size: 2.5rem;
+    }
+
+    @media screen and (max-width: 1200px) {
+
+      :global(section){
+        padding: 2rem 2rem 2rem 2rem;
+      }
+    }
 </style>
