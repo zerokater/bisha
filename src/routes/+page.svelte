@@ -44,7 +44,7 @@
     }
 
     .headline-container{
-        background-image: url(images/homepage.jpg);
+        background-image: url(images/headline-background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
