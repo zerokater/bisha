@@ -10,6 +10,7 @@
 
 <style>
     header{
+        
         min-height: 10rem;
         background-color: white;
         justify-content: center;

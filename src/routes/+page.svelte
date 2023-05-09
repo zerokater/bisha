@@ -40,15 +40,20 @@
         justify-content: start;
         width: 100%;
         flex-direction: column;
+        
     }
 
     .headline-container{
+        background-image: url(images/homepage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 100%;
         height: 45rem;
         display: flex;
         flex-direction: column;
         justify-content: end;
         align-items: center;
+        
     }
     .headline{
         display: flex;
@@ -56,7 +61,19 @@
         gap: 4rem;
     }
 
+    h1{
+        color: white !important;
+    }
+    
+    h2{
+        color: white !important;
+    }
+
     .willkommen-container{
+        background-image: url(images/unbenan.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         background-color: #f1f1f1;
         width: 100%;
         height: auto;
@@ -73,6 +90,7 @@
     }
 
     .projekte-container{
+        
         width: 100%;
         height: auto;
         padding: 2.5rem 0rem 2.5rem 0rem;
@@ -82,6 +100,7 @@
     }
 
     .projekte{
+        
         justify-content: center;
         display: flex;
         gap: 2rem;
