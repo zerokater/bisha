@@ -11,7 +11,7 @@
 <style>
     header{
         min-height: 10rem;
-        background-color: orangered;
+        background-color: white;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -28,7 +28,7 @@
 
     .logo{
         text-decoration: none !important;
-        color: white;
+        color: black;
         font-size: 2rem;
     }
 
@@ -39,7 +39,7 @@
     }
     .nav-link{
         text-decoration: none !important;
-        color: white;
+        color: black;
         font-size: 2rem;
     }
 

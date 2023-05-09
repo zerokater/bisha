@@ -36,4 +36,8 @@
     margin: auto;
   }
 
+  :global(h2){
+    color: orangered;
+  }
+
 </style>

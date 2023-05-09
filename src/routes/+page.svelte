@@ -20,26 +20,32 @@
 
     <div class="willkommen-container">
         <section class="willkommen">
-            <h2>Ciao!</h2>
-            <p>Wir ist eine kreative Branding-Agentur, die sich auf die Entwicklung einzigartiger visueller Identitäten spezialisiert hat. Wir sind der Meinung, dass gutes Design mehr ist als nur Ästhetik - es sollte eine Geschichte erzählen und eine Verbindung zwischen Ihrer Marke und Ihren Kunden schaffen.</p>
+            <h3>Ciao!</h3>
+            <p>Wir sind eine kreative Branding-Agentur in Wallis, die sich auf die Entwicklung einzigartiger visueller Identitäten spezialisiert hat. Wir sind der Meinung, dass gutes Design mehr ist als nur Ästhetik - es sollte eine Geschichte erzählen und eine Verbindung zwischen Ihrer Marke und Ihren Kunden schaffen.</p>
+        </section>
+    </div>
+    <div class="projekte-container">
+        <section class="projekte">
+            <h3>Unsere Projekte</h3>
+            <img src="images/tafa.jpg" alt="">
         </section>
     </div>
 </main>
 <style>
+
     span{
-        background-color: orange;
+        background-color: orangered;
      }
 
     main{
         display: flex;
         align-items: start;
-        justify-content: startx;
+        justify-content: start;
         width: 100%;
         flex-direction: column;
     }
 
     .headline-container{
-        background-color: orangered;
         width: 100%;
         height: 45rem;
         display: flex;
@@ -55,32 +61,64 @@
     }
 
     .willkommen-container{
+        background-color: #f1f1f1;
         width: 100%;
         height: auto;
-        height: 30rem;
+        height: 45rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .willkommen{
+
         display: flex;
+        gap: 2rem;
         flex-direction: column;
         width: 1120px;
     }
+
+    .projekte-container{
+        width: 100%;
+        height: auto;
+        height: 55rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projekte{
+        justify-content: center;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        width: 1120px; 
+    }
+
+    .projekte img{
+        width: 33%;
+        border: 1pt solid #f1f1f1;
+    }
     h1{
-        color: white;
+        color: black;
         line-height: 120%;
         font-size: 7rem;
     }
 
     h2{
         text-decoration: underline;
-        text-decoration-color: orange;
-        color: white;
-        font-size: 3rem;
+        text-decoration-color: orangered;
+        color: black;
+        font-size: 3.5rem;
         font-weight: 400;
     }
+
+    h3{
+        font-size: 3rem;
+        text-decoration: underline;
+        text-decoration-color: orangered;
+    }
+
 
     p{
         font-size: 2.5rem;
