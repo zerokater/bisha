@@ -13,7 +13,7 @@
 <main>
     <div class="headline-container">
         <section class="headline">
-            <h1>Der perfekte Look für Ihr <span>Unternehmen.</span></h1>
+            <h1>Der perfekte Look für Ihr <br> <span>Unternehmen.</span></h1>
             <h2>Design, das Eindruck macht.</h2>
         </section>
     </div>
@@ -59,7 +59,8 @@
     .willkommen-container{
         background-color: #f1f1f1;
         width: 100%;
-        height: 45rem;
+        height: auto;
+        padding: 5rem 0rem 5rem 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -74,7 +75,7 @@
     .projekte-container{
         width: 100%;
         height: auto;
-        height: 55rem;
+        padding: 2.5rem 0rem 2.5rem 0rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -92,8 +93,27 @@
         border: 1pt solid #f1f1f1;
     }
 
+    @media screen and (max-width: 1200px) {
+    
+        .headline-container{
+            height: 35rem;
+        }
 
+    }
  
+    @media screen and (max-width: 768px) {
+
+      .headline-container{
+        height: 25rem;
+      }
+
+      .headline{
+        gap: 1rem;
+      }
+    }
+
+
+
 
 
 </style>

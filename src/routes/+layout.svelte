@@ -71,9 +71,38 @@
     }
 
     @media screen and (max-width: 1200px) {
+  
 
       :global(section){
         padding: 2rem 2rem 2rem 2rem;
       }
+
+      :global(h1){
+        font-size: 6rem;
+      }
+
+      :global(h2){
+        font-size: 3rem;
+      }
+
+    }
+
+    @media screen and (max-width: 768px) {
+      :global(h1){
+        font-size: 5rem;
+      }
+
+      :global(h2){
+        font-size: 2.5rem;
+      }
+
+      :global(p){
+        font-size: 1.8rem;
+      }
+
+      :global(h3){
+        font-size: 2.3rem;
+      }
+
     }
 </style>
