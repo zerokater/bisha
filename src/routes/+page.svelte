@@ -32,26 +32,11 @@
 </main>
 <style>
 
-
-    main{
-        display: flex;
-        align-items: start;
-        justify-content: start;
-        width: 100%;
-        flex-direction: column;
-        
-    }
-
     .headline-container{
-        background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
         height: 45rem;
         display: flex;
         flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        
     }
     .headline{
         display: flex;
@@ -68,17 +53,11 @@
     }
 
     .willkommen-container{
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-color: #f1f1f1;
-        width: 100%;
-        height: auto;
-        padding: 5rem 0rem 5rem 0rem;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        background-size: cover;
+        background-color: #f1f1f1;
+        padding: 5rem 0rem 5rem 0rem;
+
     }
 
     .willkommen{
@@ -89,12 +68,9 @@
 
     .projekte-container{
         
-        width: 100%;
-        height: auto;
         padding: 2.5rem 0rem 2.5rem 0rem;
         display: flex;
-        justify-content: center;
-        align-items: center;
+
     }
 
     .projekte{

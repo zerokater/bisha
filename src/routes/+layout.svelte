@@ -101,7 +101,7 @@
       }
 
       :global(h3){
-        font-size: 2.3rem;
+        font-size: 2.5rem;
       }
 
     }
@@ -117,11 +117,11 @@
       }
 
       :global(h3){
-        font-size: 2.5rem;
+        font-size: 2.3rem;
       }
 
       :global(p){
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
 
     }
