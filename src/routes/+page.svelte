@@ -121,12 +121,19 @@
     @media screen and (max-width: 768px) {
 
       .headline-container{
-        height: 25rem;
+        height: 35rem;
       }
 
       .headline{
         gap: 1rem;
       }
+    }
+
+    @media screen and (max-width: 650px) {
+
+        .headline-container{
+        height: 25rem;
+        }
     }
 
 

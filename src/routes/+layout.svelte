@@ -105,4 +105,24 @@
       }
 
     }
+
+    @media screen and (max-width: 650px) {
+
+      :global(h1){
+        font-size: 3.5rem;
+      }
+
+      :global(h2){
+        font-size: 2rem;
+      }
+
+      :global(h3){
+        font-size: 2.5rem;
+      }
+
+      :global(p){
+        font-size: 2rem;
+      }
+
+    }
 </style>
