@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 
@@ -11,14 +10,14 @@
 </head>
 
 <main>
-    <div class="headline-container">
+    <div class="headline-container" style="background-image: url(images/headline-background.jpg);">
         <section class="headline">
             <h1>Der perfekte Look für Ihr <br> <span>Unternehmen.</span></h1>
             <h2>Design, das Eindruck macht.</h2>
         </section>
     </div>
 
-    <div class="willkommen-container">
+    <div class="willkommen-container" style="background-image: url(images/unbenan.svg);">
         <section class="willkommen">
             <h3>Ciao!</h3>
             <p>Wir sind eine kreative Branding-Agentur in Wallis, die sich auf die Entwicklung einzigartiger visueller Identitäten spezialisiert hat. Wir sind der Meinung, dass gutes Design mehr ist als nur Ästhetik - es sollte eine Geschichte erzählen und eine Verbindung zwischen Ihrer Marke und Ihren Kunden schaffen.</p>
@@ -44,7 +43,6 @@
     }
 
     .headline-container{
-        background-image: url(images/headline-background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -70,7 +68,7 @@
     }
 
     .willkommen-container{
-        background-image: url(images/unbenan.svg);
+
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
