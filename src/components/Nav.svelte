@@ -63,7 +63,11 @@
     @media screen and (max-width: 480px) {
 
         header{
-            min-height: 5rem;
+            min-height: 7rem;
+        }
+
+        .nav-link{
+            font-size: 1.6rem;
         }
 
     }

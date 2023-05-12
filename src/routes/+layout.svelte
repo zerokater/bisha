@@ -132,15 +132,15 @@
         }
   
         :global(h2){
-          font-size: 1.8rem;
+          font-size: 1.9rem;
         }
 
         :global(h3){
-          font-size: 1.7rem;
+          font-size: 1.8rem;
         }
 
         :global(p){
-          font-size: 1.5rem;
+          font-size: 1.6rem;
         }
         
 

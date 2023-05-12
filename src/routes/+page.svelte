@@ -1,6 +1,6 @@
 <script>
 </script>
-
+.
 
 <head>
 	<title>bisha. | Kreative Branding-Agentur | Markenbildung & Design-Lösungen in Ihrer Region</title>
@@ -111,7 +111,14 @@
         }
     }
 
+    @media screen and (max-width: 480px) {
 
+        .willkommen-container{
+            padding: 2.5rem 0rem 2.5rem 0rem;
+        }
+    }
+
+  
 
 
 
