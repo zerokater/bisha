@@ -112,6 +112,9 @@
         .headline-container{
         height: 25rem;
         }
+        .projekte img{
+            width: 50%;
+        }
     }
 
     @media screen and (max-width: 480px) {
@@ -121,6 +124,9 @@
             padding: 2.5rem 0rem 2.5rem 0rem;
         }
         
+        .projekte img{
+            width: 100%;
+        }
 
     }
 
