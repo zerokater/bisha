@@ -1,6 +1,5 @@
 <script>
 </script>
-.
 
 <head>
 	<title>bisha. | Kreative Branding-Agentur | Markenbildung & Design-Lösungen in Ihrer Region</title>
@@ -33,7 +32,6 @@
 <style>
 
     .headline-container{
-
         background-size: cover;
         height: 45rem;
         display: flex;
@@ -41,7 +39,6 @@
     }
     .headline{
         display: flex;
-        width: 100%;
         flex-direction: column;
         gap: 4rem;
     }
@@ -92,6 +89,10 @@
         .headline-container{
             height: 35rem;
         }
+        .headline{
+
+            width: 100%;
+        }
 
     }
  
@@ -115,9 +116,12 @@
 
     @media screen and (max-width: 480px) {
 
+
         .willkommen-container{
             padding: 2.5rem 0rem 2.5rem 0rem;
         }
+        
+
     }
 
   
