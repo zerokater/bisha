@@ -74,7 +74,6 @@
     }
 
     .projekte{
-        
         justify-content: center;
         display: flex;
         gap: 2rem;
