@@ -1,6 +1,6 @@
 <header>
     <nav>
-        <a class="logo" href="/"><h1>bisha.</h1></a>
+        <a href="/"><img id="logo" src="images/bisha-logo-svg-schwarz.svg" alt="logo bisha"></a>
         <div class="nav-links">
             <a class="nav-link" href="/dienstleistungen">dienstleistungen</a> 
             <a class="nav-link kontakt" href="/kontakt">kontakt</a>
@@ -25,15 +25,17 @@
         justify-content: space-between;
         align-items: center;
         gap: 2rem;
+
+        
     }
 
+
+    #logo{
+        width: 80px;
+    }
 
     a{
         text-decoration: none;
-    }
-    h1{
-        color: black;
-        font-size: 3em !important;
     }
 
     .nav-links{
@@ -44,7 +46,7 @@
     .nav-link{
         text-decoration: none !important;
         color: black;
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .kontakt{   
