@@ -9,129 +9,45 @@
 </head>
 
 <main>
-    <div class="headline-container" style="background-image: url(images/headline-background.jpg);">
-        <section class="headline">
-            <h1>Der perfekte Look für Ihr <br> <span>Unternehmen.</span></h1>
-            <h2>Design, das Eindruck macht.</h2>
-        </section>
-    </div>
-
-    <div class="willkommen-container" style="background-image: url(images/unbenan.svg);">
-        <section class="willkommen">
-            <h3>Ciao!</h3>
-            <p>Wir sind eine kreative Branding-Agentur in Wallis, die sich auf die Entwicklung einzigartiger visueller Identitäten spezialisiert hat. Wir sind der Meinung, dass gutes Design mehr ist als nur Ästhetik - es sollte eine Geschichte erzählen und eine Verbindung zwischen Ihrer Marke und Ihren Kunden schaffen.</p>
-        </section>
-    </div>
-    <div class="projekte-container">
-        <section class="projekte">
-            <h3>Unsere Projekte</h3>
-            <img src="images/tafa.jpg" alt="">
-        </section>
-    </div>
+    <img src="images/bildmarke.svg" alt="">
+    <h2>Die Webseite wird derzeit überarbeitet.</h2>
+    <a href="mailto:info@bisha.ch"> info@bisha.ch</a>
 </main>
 <style>
-
-    .headline-container{
-        background-size: cover;
-        height: 45rem;
+    main{
+        width: 100vw;
+        height: 100vh;
+        background-color: #ff4500;
         display: flex;
-        flex-direction: column;
-    }
-    .headline{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;
-    }
-
-    h1{
-        color: white !important;
-    }
-    
-    h2{
-        color: white !important;
-    }
-
-    .willkommen-container{
-        display: flex;
-        background-size: cover;
-        background-color: #f1f1f1;
-        padding: 5rem 0rem 5rem 0rem;
-
-    }
-
-    .willkommen{
-        display: flex;
-        gap: 2rem;
-        flex-direction: column;
-    }
-
-    .projekte-container{
-        
-        padding: 2.5rem 0rem 2.5rem 0rem;
-        display: flex;
-
-    }
-
-    .projekte{
         justify-content: center;
-        display: flex;
-        gap: 2rem;
+        align-items: center;
         flex-direction: column;
-    }
-
-    .projekte img{
-        width: 33%;
-        border: 1pt solid #f1f1f1;
-    }
-
-    @media screen and (max-width: 1200px) {
-    
-        .headline-container{
-            height: 35rem;
-        }
-        .headline{
-
-            width: 100%;
-        }
-
-    }
- 
-    @media screen and (max-width: 768px) {
-
-      .headline-container{
-        height: 35rem;
-      }
-
-      .headline{
-        gap: 1rem;
-      }
-    }
-
-    @media screen and (max-width: 650px) {
-
-        .headline-container{
-        height: 25rem;
-        }
-        .projekte img{
-            width: 50%;
-        }
-    }
-
-    @media screen and (max-width: 480px) {
-
-
-        .willkommen-container{
-            padding: 2.5rem 0rem 2.5rem 0rem;
-        }
-        
-        .projekte img{
-            width: 100%;
-        }
+        gap: 30px;
 
     }
 
-  
+    img{
+        width: 100px;
+        height: 100px;
+    }
 
+    h2{
+        width: 50%;
+        text-align: center;
+        font-weight: 200;
+        color: white;
+    }
 
+    a{
+        text-decoration: none;
+        color: white;
+        opacity: 0.7;
+        font-size: 16px;
+        font-weight: 200;
+    }
 
+    a:hover{
+        color: white;
+        opacity: 1;
+    }
 </style>
