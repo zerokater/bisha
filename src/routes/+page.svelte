@@ -9,13 +9,12 @@
 </head>
 
 <main>
-    <img src="images/bildmarke.svg" alt="">
+    <img src="images/bisha-logo-negativ.svg" alt="">
     <h2>Die Webseite wird derzeit überarbeitet.</h2>
     <a href="mailto:info@bisha.ch"> info@bisha.ch</a>
 </main>
 <style>
     main{
-        width: 100vw;
         height: 100vh;
         background-color: #ff4500;
         display: flex;
@@ -27,8 +26,8 @@
     }
 
     img{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: auto;
     }
 
     h2{
