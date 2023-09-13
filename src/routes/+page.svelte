@@ -28,6 +28,13 @@
 
 
 <style>	
+
+	main{
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+	}
+
 	.headline{
 		display: flex;
 		flex-direction: column;
@@ -36,14 +43,17 @@
 	}
 
 
+	.uber-uns{
+		height: 40rem;
+		background-color: orangered;
+	}
+
 	span{
 		color: orangered;
 	}
-	main{
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
-	}
+
+
+
 </style>
 
 <!--https://schum123.github.io/svelte-loading-spinners/?ref=madewithsvelte.com-->
