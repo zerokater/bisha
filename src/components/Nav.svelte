@@ -1,81 +1,77 @@
 <header>
-    <a href="/"><h1>bisha.</h1></a>
     <nav>
-        <a href="/projekte">projekte</a> 
-        <a class ="kontakt" href="/kontakt">kontakt</a>
+        <a href="/"><img id="logo" src="images/bisha-logo-svg-schwarz.svg" alt="logo bisha"></a>
+        <div class="nav-links">
+            <a class="nav-link" href="/dienstleistungen">dienstleistungen</a> 
+            <a class="nav-link kontakt" href="/kontakt">kontakt</a>
+        </div>
     </nav>
 </header>
 
 <style>
-
     header{
-        margin-top: 2rem;
-        width: 100%;
-        height: auto;
-        display: flex;
+        
+        min-height: 10rem;
+        background-color: white;
+        justify-content: center;
         align-items: center;
-        justify-content: space-between;
-        margin-bottom: 5rem;
-
+        display: flex;
     }
-
+    
     nav{
+        width: 1120px;
+        margin: auto;
         display: flex;
-        gap: 2rem;
+        justify-content: space-between;
         align-items: center;
+        gap: 2rem;
+
+        
     }
 
 
-    h1{
-        font-size: 3rem !important;
+    #logo{
+        width: 80px;
     }
+
     a{
-        font-weight: 500;
-        font-size: 1.6rem;
         text-decoration: none;
-        color: rgb(0, 0, 0);
-        transition: all 0.2s ;
-
     }
 
-    a:hover{
-        color: orangered;
+    .nav-links{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    .nav-link{
+        text-decoration: none !important;
+        color: black;
+        font-size: 1.6rem;
     }
 
-    .kontakt{
+    .kontakt{   
         border-radius: 0.5rem;
-        color: white;
-        padding: 1rem;
-        transition: all 0.5s ease;
-        font-weight: 500;
-        background-color: orangered;
     }
 
-    .kontakt:hover{
-        color: white;
-        background-color: black;
-       }
+    @media screen and (max-width: 1200px) {
 
+        
+        nav{
+        padding: 0rem 2rem 0rem 2rem;
+        }
+    }
+    
 
-
-
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
 
         header{
-            margin-bottom: 3rem;
+            min-height: 7rem;
         }
 
-
-    }
-
-    @media only screen and (max-width: 768px) {
-
-        header{
-            margin-bottom: 0rem;
+        .nav-link{
+            font-size: 1.6rem;
         }
 
-
     }
-
 
 </style>

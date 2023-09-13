@@ -21,10 +21,9 @@
         box-shadow: rgba(101, 107, 112, 0.2) 0px 8px 24px;
         background-color: white;
         border-radius: 0.5rem;
-        flex-grow: 1;
         /*flex-grow: 1;
         flex-shrink: 1;*/
-        width: 30rem;
-        height: 30rem;
+        width: 300px;
+        height: 300px;
     }
 </style>
