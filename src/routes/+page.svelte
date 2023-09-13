@@ -10,8 +10,7 @@
 
 <main>
     <img src="images/bisha-logo-negativ.svg" alt="">
-    <h2>Die Webseite wird derzeit überarbeitet. alo</h2>
-    <a href="mailto:info@bisha.ch"> info@bisha.ch</a>
+
 </main>
 
 
@@ -22,24 +21,16 @@
 		display: flex;
 		flex-direction: column;
 		gap: 5rem;
-	}
-
-	.headline{
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-		height: auto;
-	}
-
-
-	.uber-uns{
-		height: 40rem;
 		background-color: orangered;
+		height: 100vh;
+		width: 100vw;
 	}
 
-	span{
-		color: orangered;
+	img{
+		width: 300px;
 	}
+
+
 
 
 
